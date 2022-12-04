@@ -90,3 +90,37 @@ select {
 select:hover {
     cursor: pointer;
 }
+/*media query for moble */
+@media only screen and (max-width:450px) {
+    header {
+        width: 120vh;
+        height: 10vh;
+        /* background-color: red; */
+    }
+    .left-bar ,.add,.btns{
+        display: none;
+    }
+    .header2{
+        width: 120vh;
+        /* background-color: red; */
+    }
+    .under-line {
+        margin-left: 10px;
+    }
+    .arial{
+        margin-left: 50px;
+        /* background-color: red; */
+    }
+    .arrow {
+        margin-right: 80px;
+    }
+    .gray-box-input {
+        height: 50vh;
+        width: 50vw;
+    }
+    .gray-box  {
+        width: 120vh;
+        height: 80vh;
+        /* border: 2px solid red; */
+    }
+}
